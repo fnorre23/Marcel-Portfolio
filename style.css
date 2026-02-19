@@ -7,15 +7,16 @@
 body {
     display: flex;
     flex-direction: column;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: left;
 }
 
 /*Standard styling - centreret tekst*/
 .body-container {
     display: flex;
-    justify-content: left;
     flex-direction: column;
-    margin-left: 20%;
-    margin-right: 20%;
     gap: 0;
 }
 
@@ -137,7 +138,7 @@ footer a:hover {
 
 /* GALLERY */
 .gallery-wrapper {
-    width: 80%;
+    width: 100%;
     overflow-x: hidden;
     overflow-y: visible;
     align-self: center;
